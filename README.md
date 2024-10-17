@@ -65,8 +65,7 @@ This will run the script with the contacts saved in morning_greetings/data/conta
 
 If you dont want to wait until 07:30 to see the message meing sent(simulated)
 
-
-8. Logging
+## Logging
 
 The logger.py module is used to log messages and errors:
 
