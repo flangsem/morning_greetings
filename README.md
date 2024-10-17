@@ -62,7 +62,7 @@ Run the script
      ```
 This will run the script with the contacts saved in morning_greetings/data/contactlist.csv
 
-3. Add contacts in morning_greetings/data/contactlist.csv:
+2. Add contacts in morning_greetings/data/contactlist.csv:
 
     Add a contact direcly into the csv file like this:
    
@@ -78,7 +78,7 @@ This will run the script with the contacts saved in morning_greetings/data/conta
    python -m morning_greetings.main
    ```
 
-5. Add contacts in main
+3. Add contacts in main
 
     In main.py, add a contact like this:
     ```bash
