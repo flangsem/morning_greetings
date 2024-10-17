@@ -32,14 +32,18 @@ Once everything is installed you have 3 options
 
 1. Run automated script
 Run the script
+     ```bash
     python -m morning_greetings.main
+     ```
 This will run the script with the contacts saved in morning_greetings/data/contactlist.csv
 
 3. Add contacts in morning_greetings/data/contactlist.csv:
 
     Add a contact direcly into the csv file like this:
+   
+    ```bash
     Anna,exampleemail@example.com,09:00,False
-
+   ```
     This will result in a message being sent(simulated), to exampleemail@example.com at 09:00.
     The format for adding time is 24:00.
     Change "False" to "True" if you want the message to include what day it is.
@@ -49,7 +53,7 @@ This will run the script with the contacts saved in morning_greetings/data/conta
    python -m morning_greetings.main
    ```
 
-4. Add contacts in main
+5. Add contacts in main
 
     In main.py, add a contact like this:
     ```bash
