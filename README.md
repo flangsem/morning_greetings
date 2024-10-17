@@ -23,9 +23,34 @@ Navigate to the directory:
     cd contacts-manager
 
 
-Install dependencies (if any):
+Install dependencies:
 
     pip install -r requirements.txt
+    
+## Package structure
+```
+morning_greetings/
+│
+├── setup.py                    # Installation script
+├── README.md                   # Documentation for the package
+├── requirements.txt            # Reqired external libraries
+├── LICENSE
+   morning_greetings/
+   │
+   ├── __init__.py              # Marks the directory as a package
+   ├── contacts.py              # Manage contacts list
+   ├── logger.py                # Log errors and simulated messages
+   ├── main.py                  # Main script to run task
+   ├── message_generator.py     # Generate messages
+   ├── message_sender.py        # Simulate sending messages
+       data/
+      │
+      ├── contact_list.csv         # Log file for contacts
+      logs/
+      │
+      ├── error_log.txt            # Log file for messages sent
+      ├── message_log.txt          # Log file for sent messages
+```
 
 ## Usage
 Once everything is installed you have 3 options
