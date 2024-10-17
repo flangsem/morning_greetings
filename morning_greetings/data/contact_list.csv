@@ -1,0 +1,8 @@
+name,mail,preferred_time,day
+
+Alice,abc@example.com,08:00,True
+
+Bob,bcd@example.com,09:00,False
+
+Charlie,cde@example.com,14:31,True
+
